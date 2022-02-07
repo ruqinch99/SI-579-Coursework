@@ -17,11 +17,13 @@ function changeColor() {
 		colorBlock.style.background = "#F08080";
 		//Change the text of the color using the span id color-name
 		colorBlock.style.color = "black";
+		document.getElementById("color-name").textContent = "#F08080";
 	} else {
 		//change the background color using JS
-		colorBlock.style.background = "#b84dff";
+		colorBlock.style.background = "#B84DFF";
 		//Change the text of the color using the span id color-name
 		colorBlock.style.color = "white";
+		document.getElementById("color-name").textContent = "#B84DFF";
 	}
 	click = 1 - click
 }
